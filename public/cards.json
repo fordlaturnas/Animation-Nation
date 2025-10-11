@@ -96,6 +96,14 @@
     "projectPath": "Art/Bharath-dev05-water-fall"
   },
   {
+    "author": "ChrRepou",
+    "artName": "moving circles",
+    "githubLink": "https://github.com/ChrRepou",
+    "pageLink": "./Art/ChrRepou-moving-circles/index.html",
+    "imageLink": "./Art/ChrRepou-moving-circles/icon.png",
+    "projectPath": "Art/ChrRepou-moving-circles"
+  },
+  {
     "author": "GitSatishGarg",
     "artName": "Balloons",
     "githubLink": "https://github.com/GitSatishGarg",
@@ -581,6 +589,14 @@
     "pageLink": "./Art/mrkc2303-wave-grid/index.html",
     "imageLink": "./Art/mrkc2303-wave-grid/icon.png",
     "projectPath": "Art/mrkc2303-wave-grid"
+  },
+  {
+    "author": "neha2003-git",
+    "artName": "airplane",
+    "githubLink": "https://github.com/neha2003-git",
+    "pageLink": "./Art/neha2003-git-airplane/index.html",
+    "imageLink": "./Art/neha2003-git-airplane/icon.png",
+    "projectPath": "Art/neha2003-git-airplane"
   },
   {
     "author": "neha2003-git",
