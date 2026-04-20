@@ -7,7 +7,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Lily Script One", system-ui;
+  font-family: 'Lily Script One', system-ui;
 }
 
 /* Centered container with max width */
@@ -60,7 +60,7 @@ body {
 /* Border and glow layers */
 .frame::before,
 .frame::after {
-  content: "";
+  content: '';
   position: absolute;
   height: 100%;
   width: 100%;
