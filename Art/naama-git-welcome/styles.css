@@ -1,56 +1,64 @@
-
 body {
-    margin: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .welcome-panel {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    perspective: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  perspective: 1000px;
 }
 
 .letter {
-    display: inline-block;
-    opacity: 0;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 6rem;
-    font-weight: bold; 
-    animation: slide-in 2.2s cubic-bezier(0.40, 0.46, 0.45, 1.2) infinite forwards; 
+  display: inline-block;
+  opacity: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Open Sans',
+    'Helvetica Neue', sans-serif;
+  font-size: 6rem;
+  font-weight: bold;
+  animation: slide-in 2.2s cubic-bezier(0.4, 0.46, 0.45, 1.2) infinite forwards;
 }
 
 @keyframes slide-in {
-    0% {
-        opacity: 0;
-        transform: scale(0.5) translateX(70px);
-        text-shadow: 0 0 0 rgba(0,0,0,0);
-        
-    }
-    40% {
-        opacity: 1;
-        transform: scale(1.5) translateX(-10px);
-        text-shadow: 
-            5px 5px 20px rgba(114, 91, 191, 0.6),
-            -5px -5px 20px rgba(238, 36, 36, 0.5);
-        
-        
-        
-    }
-    100% {
-        opacity: 1;
-        transform: scale(1) translateX(0) ;
-         text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-    }
-
+  0% {
+    opacity: 0;
+    transform: scale(0.5) translateX(70px);
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  40% {
+    opacity: 1;
+    transform: scale(1.5) translateX(-10px);
+    text-shadow: 5px 5px 20px rgba(114, 91, 191, 0.6),
+      -5px -5px 20px rgba(238, 36, 36, 0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateX(0);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  }
 }
 
-.w  { animation-delay: 0.1s; }
-.e  { animation-delay: 0.15s; }
-.l  { animation-delay: 0.2s; }
-.c  { animation-delay: 0.25s; }
-.o  { animation-delay: 0.3s; }
-.m  { animation-delay: 0.35s; }
-.e2 { animation-delay: 0.4s; }
+.w {
+  animation-delay: 0.1s;
+}
+.e {
+  animation-delay: 0.15s;
+}
+.l {
+  animation-delay: 0.2s;
+}
+.c {
+  animation-delay: 0.25s;
+}
+.o {
+  animation-delay: 0.3s;
+}
+.m {
+  animation-delay: 0.35s;
+}
+.e2 {
+  animation-delay: 0.4s;
+}
