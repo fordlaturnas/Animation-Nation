@@ -1792,6 +1792,14 @@
     "projectPath": "Art/mrkc2303-wave-grid"
   },
   {
+    "author": "naama-git",
+    "artName": "welcome",
+    "githubLink": "https://github.com/naama-git",
+    "pageLink": "./Art/naama-git-welcome/index.html",
+    "imageLink": "./Art/naama-git-welcome/icon.png",
+    "projectPath": "Art/naama-git-welcome"
+  },
+  {
     "author": "neha2003-git",
     "artName": "airplane",
     "githubLink": "https://github.com/neha2003-git",
