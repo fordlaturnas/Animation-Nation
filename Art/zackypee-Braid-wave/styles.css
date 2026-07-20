@@ -44,25 +44,55 @@ body {
 }
 
 @keyframes weaveLeft {
-  0%   { transform: translateX(0) translateY(0); }
-  25%  { transform: translateX(45px) translateY(20px); }
-  50%  { transform: translateX(90px) translateY(0); }
-  75%  { transform: translateX(45px) translateY(-20px); }
-  100% { transform: translateX(0) translateY(0); }
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  25% {
+    transform: translateX(45px) translateY(20px);
+  }
+  50% {
+    transform: translateX(90px) translateY(0);
+  }
+  75% {
+    transform: translateX(45px) translateY(-20px);
+  }
+  100% {
+    transform: translateX(0) translateY(0);
+  }
 }
 
 @keyframes weaveCenter {
-  0%   { transform: translateX(0) translateY(-10px); }
-  25%  { transform: translateX(-45px) translateY(10px); }
-  50%  { transform: translateX(0) translateY(-10px); }
-  75%  { transform: translateX(45px) translateY(10px); }
-  100% { transform: translateX(0) translateY(-10px); }
+  0% {
+    transform: translateX(0) translateY(-10px);
+  }
+  25% {
+    transform: translateX(-45px) translateY(10px);
+  }
+  50% {
+    transform: translateX(0) translateY(-10px);
+  }
+  75% {
+    transform: translateX(45px) translateY(10px);
+  }
+  100% {
+    transform: translateX(0) translateY(-10px);
+  }
 }
 
 @keyframes weaveRight {
-  0%   { transform: translateX(0) translateY(0); }
-  25%  { transform: translateX(-45px) translateY(-20px); }
-  50%  { transform: translateX(-90px) translateY(0); }
-  75%  { transform: translateX(-45px) translateY(20px); }
-  100% { transform: translateX(0) translateY(0); }
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  25% {
+    transform: translateX(-45px) translateY(-20px);
+  }
+  50% {
+    transform: translateX(-90px) translateY(0);
+  }
+  75% {
+    transform: translateX(-45px) translateY(20px);
+  }
+  100% {
+    transform: translateX(0) translateY(0);
+  }
 }
